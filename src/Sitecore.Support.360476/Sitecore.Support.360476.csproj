@@ -114,12 +114,11 @@
     <Reference Include="Sitecore.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Client.8.2.180406\lib\NET452\Sitecore.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Commerce, Version=8.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Commerce.8.2.180406\lib\NET452\Sitecore.Commerce.dll</HintPath>
+    <Reference Include="Sitecore.Commerce">
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\sc825-xc821u2\Website\bin\Sitecore.Commerce.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Commerce.Connect.CommerceServer">
-      <HintPath>..\packages\COMSRV.Sitecore.Commerce.Connect.CommerceServer.8.2.0\lib\Sitecore.Commerce.Connect.CommerceServer.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\sc825-xc821u2\Website\bin\Sitecore.Commerce.Connect.CommerceServer.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.ContentSearch.8.2.180406\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
