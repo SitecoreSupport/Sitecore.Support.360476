@@ -62,11 +62,10 @@ namespace Sitecore.Support.Commerce.Pipelines.Orders
                 }
                 return;
             }
-            
             else if (Tracker.Current.CurrentPage == null)
             {
                 string currentUri = HttpContext.Current?.Request?.Url?.ToString() ?? String.Empty;
-                Log.Error($"The page '{currentUri}' can't be tracked, Tracker.Current.CurrentPage is not initialized", this);
+                Log.Error($"The page '{currentUri}' can't be tracked, Tracker.Current.CurrentPage is not initialized in processor '{this.GetType()}'", this);
             }
 
             PageEventItem pageEventItem = null;
